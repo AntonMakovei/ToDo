@@ -5,6 +5,37 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.list {
+  padding: 8px;
+  background: antiquewhite;
+  border-radius: 8px;
+}
+.list > li{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkBoxItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputArea {
+  display: flex;
+  flex-direction: column;
+  gap: 4px
 }
 
 
